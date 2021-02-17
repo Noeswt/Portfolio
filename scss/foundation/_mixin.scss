@@ -1,13 +1,13 @@
-$tab: px;
-$sp: px;
+$tab: 768px;    //tab用のデザイン
+$pc: 1024px;    //pc用のデザイン
 
 @mixin tab {
     @media (min-width: $tab) {
         @content;
     }
 }
-@mixin sp {
-    @media (min-width: $sp) {
+@mixin pc {
+    @media (min-width: $pc) {
         @content;
     }
 }
@@ -15,6 +15,6 @@ $sp: px;
 @include tab {
 
 };
-@include sp {
+@include pc {
 
 };
