@@ -1,0 +1,20 @@
+$tab: px;
+$sp: px;
+
+@mixin tab {
+    @media (min-width: $tab) {
+        @content;
+    }
+}
+@mixin sp {
+    @media (min-width: $sp) {
+        @content;
+    }
+}
+
+@include tab {
+
+};
+@include sp {
+
+};
