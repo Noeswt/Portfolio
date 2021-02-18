@@ -4,7 +4,7 @@ html {
 
 body {
     width: 100%;
-
+    font-family: 'Righteous', cursive, "Noto Sans JP", sans-serif;
 }
 
 li {
@@ -21,5 +21,9 @@ img {
 }
 
 //font-color
+$cblack: #000;
+$cwhite: #fff;
+$cgray: #F5F5F5;
 
 // bgc 
+$gray: #F5F5F5;
