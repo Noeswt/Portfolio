@@ -1,0 +1,10 @@
+.l-header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+
+    @include pc {
+        height: 150px;
+    };
+}
