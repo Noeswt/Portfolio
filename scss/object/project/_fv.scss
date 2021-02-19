@@ -29,13 +29,17 @@
 
                 };
                 @include pc {
-                    font-size: 80px;
+                    font-size: 100px;
                 };
             }
 
             &__text {
                 margin-top: 20px;
                 line-height: 1.5;
+
+                @include pc {
+                    font-size: 24px;
+                };
             }
         }
     }
