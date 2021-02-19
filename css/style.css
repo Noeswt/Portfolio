@@ -121,4 +121,108 @@ img {
   width: 100%;
   vertical-align: bottom;
 }
+
+.l-container {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.l-header {
+  width: 100%;
+  height: 120px;
+  background-color: aqua;
+}
+
+.p-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+.p-header__left__a {
+  display: block;
+}
+
+.p-header__left__a__title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.p-header__right__nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 70vh;
+}
+
+.p-header__right__nav.menu-open {
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: rgba(245, 245, 245, 0.9);
+}
+
+.p-header__right__nav ul {
+  width: 80%;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.p-header__right__nav ul li {
+  margin-bottom: 30px;
+}
+
+.p-header__right__nav ul li a {
+  color: #000;
+  font-size: 36px;
+}
+
+.p-header__right__burger-btn {
+  background-color: transparent;
+  border: none;
+  outline: none !important;
+}
+
+.p-header__right__burger-btn__bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #fff;
+  margin-bottom: 9px;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.p-header__right__burger-btn__bar:last-child {
+  margin: 0;
+}
+
+.p-header__right__burger-btn__bar.menu-open {
+  background-color: #000;
+}
+
+.p-header__right__burger-btn.menu-open > span:nth-child(1) {
+  -webkit-transform: translateY(11px) rotate(135deg);
+          transform: translateY(11px) rotate(135deg);
+}
+
+.p-header__right__burger-btn.menu-open > span:nth-child(2) {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.p-header__right__burger-btn.menu-open > span:nth-child(3) {
+  -webkit-transform: translateY(-11px) rotate(-135deg);
+          transform: translateY(-11px) rotate(-135deg);
+}
 /*# sourceMappingURL=style.css.map */
