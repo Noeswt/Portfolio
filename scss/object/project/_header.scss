@@ -14,10 +14,10 @@
 
             &__title {
                 color: $cwhite;
-                font-size: 24px;
+                font-size: 36px;
 
                 @include pc {
-                    font-size: 36px;
+                    font-size: 40px;
                 };
             }
         }
