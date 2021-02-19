@@ -176,13 +176,19 @@ img {
 
 @media (min-width: 1024px) {
   .p-fv__kv__box__title {
-    font-size: 80px;
+    font-size: 100px;
   }
 }
 
 .p-fv__kv__box__text {
   margin-top: 20px;
   line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .p-fv__kv__box__text {
+    font-size: 24px;
+  }
 }
 
 .p-header {
@@ -210,12 +216,12 @@ img {
 
 .p-header__left__a__title {
   color: #fff;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 @media (min-width: 1024px) {
   .p-header__left__a__title {
-    font-size: 36px;
+    font-size: 40px;
   }
 }
 
