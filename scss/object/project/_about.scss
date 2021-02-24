@@ -1,77 +1,111 @@
-.p-about {
-    padding: 120px 0;
-    background-color: $cgray;
+// .p-about {
+//     padding: 120px 0;
+//     background-color: $cgray;
 
-    &__title {
-        margin-bottom: 60px;
-        text-align: center;
+//     @include pc {
+//         padding: 150px 0;
+//     }
 
-        @include tab {
-            margin-bottom: 100px;
-            text-align: left;
-        };
-        @include pc {
-        
-        };
-    }
+//     &__title {
+//         margin-bottom: 60px;
+//         text-align: center;
 
-    &__flex {
-        @include tab {
-            display: flex;
-        };
-        @include pc {
-        
-        };
+//         @include tab {
+//             margin-bottom: 100px;
+//             text-align: left;
+//         }
+//         @include pc {
+//             margin-bottom: 120px;
+//             text-align: left;
+//         }
 
-        &__left {
-            width: 70%;
-            margin: 0 auto 60px;
+//     }
 
-            @include tab {
-                width: 40%;
-            };
-            @include pc {
-                width: 30%;
-            };
+//     &__flex {
+//         @include tab {
+//             display: flex;
+//         }
 
-            img {
-                border-radius: 50%;
-            }
-        }
+//         &__left {
+//             width: 50%;
+//             margin: 0 auto 60px;
 
-        &__right {
-            @include tab {
-                width: 45%;
-            };
-            @include pc {
-            
-            };
+//             @include tab {
+//                 width: 30%;
+//             }
+//             @include pc {
+//                 width: 25%;
+//             }
 
-            &__profile {
-                h3 {
-                    margin-bottom: 10px;
-                    font-size: 36px;
-                    text-align: center;
+//             img {
+//                 border-radius: 50%;
+//             }
+//         }
 
-                    @include tab {
-                        font-size: 36px;
-                    };
-                    @include pc {
-                    
-                    };
-                }
+//         &__right {
+//             @include tab {
+//                 width: 50%;
+//             }
 
-                hr {
-                    width: 30px;
-                    margin: 0 auto 40px;
-                }
+//             &__profile {
+//                 margin-bottom: 60px;
 
-                p {
-                    margin-bottom: 30px;
-                    font-family: "Noto Sans JP", sans-serif;
-                    line-height: 1.5;
-                }
-            }
-        }
-    }
-}
+//                 @include tab {
+//                     margin-bottom: 120px;
+//                 }
+
+//                 h3 {
+//                     margin-bottom: 10px;
+//                     font-size: 36px;
+//                     text-align: center;
+
+//                     @include tab {
+//                         font-size: 36px;
+//                     }
+//                 }
+
+//                 hr {
+//                     width: 30px;
+//                     margin: 0 auto 40px;
+
+//                     @include tab {
+//                         margin: 0 auto 60px;
+//                     }
+//                 }
+
+//                 p {
+//                     margin-bottom: 30px;
+//                     font-family: "Noto Sans JP", sans-serif;
+//                     line-height: 1.5;
+//                 }
+//             }
+
+//             &__skill {
+//                 h3 {
+//                     margin-bottom: 10px;
+//                     font-size: 36px;
+//                     text-align: center;
+
+//                     @include tab {
+//                         font-size: 36px;
+//                     }
+//                 }
+
+//                 hr {
+//                     width: 30px;
+//                     margin: 0 auto 40px;
+
+//                     @include tab {
+//                         margin: 0 auto 60px;
+//                     }
+//                 }
+
+//                 &__box {
+//                     img {
+//                         width: 100%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

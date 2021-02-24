@@ -6,7 +6,7 @@
 
     @include pc {
         height: 150px;
-    };
+    }
 
     &__left {
         &__a {
@@ -18,7 +18,7 @@
 
                 @include pc {
                     font-size: 40px;
-                };
+                }
             }
         }
     }
@@ -45,14 +45,14 @@
 
                 @include pc {
                     margin: 150px auto;
-                };
+                }
 
                 &__li {
                     margin-bottom: 30px;
 
                     @include pc {
                         margin-bottom: 50px;
-                    };
+                    }
 
                     a {
                         color: $cblack;
@@ -60,7 +60,7 @@
 
                         @include pc {
                             font-size: 48px;
-                        };
+                        }
                     }
                 }
             }
@@ -85,7 +85,7 @@
                     height: 3px;
                     border-radius: 1.5px;
                     margin-bottom: 12px;
-                };
+                }
 
                 &:last-child {
                     margin: 0;
@@ -103,7 +103,7 @@
 
                         @include pc {
                             transform: translateY(15px) rotate(315deg);
-                        };
+                        }
                     }
 
                     &:nth-child(2) {
@@ -115,7 +115,7 @@
 
                         @include pc {
                             transform: translateY(-15px) rotate(-315deg);
-                        };
+                        }
                     }
                 }
             }
