@@ -1,0 +1,91 @@
+.p-service {
+    padding: 120px 0;
+    background-color: $cwhite;
+
+    @include pc {
+        padding: 150px 0;
+    }
+
+    &__title {
+        margin-bottom: 120px;
+        text-align: center;
+
+        @include tab {
+            margin-bottom: 120px;
+        }
+        @include pc {
+            margin-bottom: 150px;
+        }
+    }
+
+    &__web {
+        margin-bottom: 100px;
+        font-family: "Noto Sans JP", sans-serif;
+
+        @include tab {
+            width: 40%;
+            margin: 0 auto;
+        }
+        @include pc {
+        
+        }
+
+        &__title {
+            margin-bottom: 60px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .fas {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 40px;
+            border-radius: 50%;
+            background-color: $cgray;
+            font-size:100px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+    }
+
+    &__wp {
+        font-family: "Noto Sans JP", sans-serif;
+
+        @include tab {
+            width: 40%;
+            margin: 0 auto;
+        }
+        @include pc {
+        
+        }
+
+        &__title {
+            margin-bottom: 60px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .fab {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 40px;
+            border-radius: 50%;
+            background-color: $cgray;
+            font-size:100px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+    }
+}
