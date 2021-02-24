@@ -86,7 +86,7 @@
             }
 
             &__box {
-                max-width: 60vw;
+                width: 70vw;
                 margin: 0 auto;
 
                 @include tab {
@@ -94,28 +94,40 @@
                 }
 
                 li {
+                    margin-bottom: 20px;
                     text-align: center;
             
                     .fab {
-                        font-size: 80px;
+                        font-size: 15vw;
                         margin-bottom: 20px;
             
+                        @include tab {
+                            font-size: 7vw;
+                        }
                         @include pc {
-                            font-size: 100px;
+                            font-size: 5vw;
                         }
                     }
             
                     img {
-                        width: 80px;
+                        width: 15vw;
                         margin-bottom: 20px;
             
+                        @include tab {
+                            width: 7vw;
+                        }
                         @include pc {
-                            width: 100px;
+                            width: 5vw;
                         }
                     }
             
                     p {
+                        font-size: 14px;
                         text-align: center;
+
+                        @include pc {
+                            font-size: 16px;
+                        }
                     }
                 }
             }

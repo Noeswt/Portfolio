@@ -161,9 +161,15 @@ img {
 .c-skill-grid {
   display: -ms-grid;
   display: grid;
-  gap: 30px;
+  gap: 10px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 768px) {
+  .c-skill-grid {
+    gap: 30px;
+  }
 }
 
 .p-about {
@@ -272,7 +278,7 @@ img {
 }
 
 .p-about__right__skill__box {
-  max-width: 60vw;
+  width: 70vw;
   margin: 0 auto;
 }
 
@@ -283,33 +289,53 @@ img {
 }
 
 .p-about__right__skill__box li {
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .p-about__right__skill__box li .fab {
-  font-size: 80px;
+  font-size: 15vw;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .p-about__right__skill__box li .fab {
+    font-size: 7vw;
+  }
 }
 
 @media (min-width: 1024px) {
   .p-about__right__skill__box li .fab {
-    font-size: 100px;
+    font-size: 5vw;
   }
 }
 
 .p-about__right__skill__box li img {
-  width: 80px;
+  width: 15vw;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .p-about__right__skill__box li img {
+    width: 7vw;
+  }
 }
 
 @media (min-width: 1024px) {
   .p-about__right__skill__box li img {
-    width: 100px;
+    width: 5vw;
   }
 }
 
 .p-about__right__skill__box li p {
+  font-size: 14px;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .p-about__right__skill__box li p {
+    font-size: 16px;
+  }
 }
 
 .p-fv {
@@ -324,7 +350,6 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .p-fv__kv__box {
