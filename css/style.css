@@ -141,7 +141,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .c-about-flex {
+  .c-flex-2column {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -202,7 +202,7 @@ img {
 
 .p-about__left {
   width: 50%;
-  margin: 0 auto 60px;
+  margin: 0 auto 100px;
 }
 
 @media (min-width: 768px) {
@@ -228,7 +228,7 @@ img {
 }
 
 .p-about__right__profile {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -532,5 +532,102 @@ img {
     -webkit-transform: translateY(-15px) rotate(-315deg);
             transform: translateY(-15px) rotate(-315deg);
   }
+}
+
+.p-service {
+  padding: 120px 0;
+  background-color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .p-service {
+    padding: 150px 0;
+  }
+}
+
+.p-service__title {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .p-service__title {
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-service__title {
+    margin-bottom: 150px;
+  }
+}
+
+.p-service__web {
+  margin-bottom: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .p-service__web {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+.p-service__web__title {
+  margin-bottom: 60px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.p-service__web .fas {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  font-size: 100px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.p-service__web p {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.p-service__wp {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .p-service__wp {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+.p-service__wp__title {
+  margin-bottom: 60px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.p-service__wp .fab {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  font-size: 100px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.p-service__wp p {
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
