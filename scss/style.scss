@@ -9,7 +9,9 @@
 @import "layout/header";
 
 // component
+@import "object/component/about-flex";
 @import "object/component/section-title";
+@import "object/component/skill-grid";
 
 // project
 @import "object/project/about";
@@ -17,4 +19,3 @@
 @import "object/project/header";
 
 // utility
-@import "object/utility/skill-grid"
