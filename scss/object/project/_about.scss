@@ -10,9 +10,6 @@
         margin-bottom: 120px;
         text-align: center;
 
-        @include tab {
-            margin-bottom: 120px;
-        }
         @include pc {
             margin-bottom: 150px;
         }
@@ -70,6 +67,8 @@
         }
 
         &__skill {
+            width: 100%;
+
             h3 {
                 margin-bottom: 10px;
                 font-size: 36px;
@@ -86,7 +85,7 @@
             }
 
             &__box {
-                width: 70vw;
+                width: 100%;
                 margin: 0 auto;
 
                 @include tab {
@@ -94,7 +93,6 @@
                 }
 
                 li {
-                    margin-bottom: 20px;
                     text-align: center;
             
                     .fab {
@@ -105,7 +103,7 @@
                             font-size: 7vw;
                         }
                         @include pc {
-                            font-size: 5vw;
+                            font-size: 80px;
                         }
                     }
             
@@ -117,7 +115,7 @@
                             width: 7vw;
                         }
                         @include pc {
-                            width: 5vw;
+                            width: 80px;
                         }
                     }
             
