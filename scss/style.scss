@@ -6,17 +6,23 @@
 // layout
 @import "layout/container";
 @import "layout/footer";
+@import "layout/header-container";
 @import "layout/header";
+@import "layout/main";
 
 // component
+@import "object/component/btn";
 @import "object/component/flex-2column";
 @import "object/component/section-title";
 @import "object/component/skill-grid";
+@import "object/component/slide-bg";
+@import "object/component/work-wrap";
 
 // project
 @import "object/project/about";
 @import "object/project/fv";
 @import "object/project/header";
 @import "object/project/service";
+@import "object/project/work";
 
 // utility
