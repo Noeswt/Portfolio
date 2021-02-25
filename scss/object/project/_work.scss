@@ -1,0 +1,43 @@
+.p-work {
+    padding: 120px 0;
+    background-color: $cgray;
+
+    @include pc {
+        padding: 150px 0;
+    }
+
+    &__title {
+        margin-bottom: 120px;
+        text-align: center;
+
+        @include pc {
+            margin-bottom: 150px;
+        }
+    }
+
+    &__item-1 {
+        position: relative;
+        width: 85%;
+        margin-bottom: 100px; 
+    }
+
+    &__item-2 {
+        position: relative;
+        width: 85%;
+        margin: 0 0 0 auto;
+        margin-bottom: 100px; 
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    p {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        z-index: 11;
+        color: $cwhite;
+        font-size: 24px;
+    }
+}
