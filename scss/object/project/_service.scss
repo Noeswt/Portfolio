@@ -10,9 +10,6 @@
         margin-bottom: 120px;
         text-align: center;
 
-        @include tab {
-            margin-bottom: 120px;
-        }
         @include pc {
             margin-bottom: 150px;
         }
