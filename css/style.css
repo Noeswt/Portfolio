@@ -127,9 +127,20 @@ img {
   margin: 0 auto;
 }
 
+@media (min-width: 1024px) {
+  .l-container {
+    width: 1000px;
+  }
+}
+
+.l-header-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 .l-header {
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   height: 120px;
 }
@@ -138,6 +149,29 @@ img {
   .l-header {
     height: 150px;
   }
+}
+
+.l-main {
+  width: 100%;
+}
+
+.c-btn {
+  width: 100%;
+  line-height: 60px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  font-family: 'Righteous', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.c-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -161,15 +195,27 @@ img {
 .c-skill-grid {
   display: -ms-grid;
   display: grid;
-  gap: 10px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 @media (min-width: 768px) {
   .c-skill-grid {
     gap: 30px;
   }
+}
+
+.c-work-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .p-about {
@@ -186,12 +232,6 @@ img {
 .p-about__title {
   margin-bottom: 120px;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .p-about__title {
-    margin-bottom: 120px;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -260,6 +300,10 @@ img {
   line-height: 1.5;
 }
 
+.p-about__right__skill {
+  width: 100%;
+}
+
 .p-about__right__skill h3 {
   margin-bottom: 10px;
   font-size: 36px;
@@ -278,7 +322,7 @@ img {
 }
 
 .p-about__right__skill__box {
-  width: 70vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -289,7 +333,6 @@ img {
 }
 
 .p-about__right__skill__box li {
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -306,7 +349,7 @@ img {
 
 @media (min-width: 1024px) {
   .p-about__right__skill__box li .fab {
-    font-size: 5vw;
+    font-size: 80px;
   }
 }
 
@@ -323,7 +366,7 @@ img {
 
 @media (min-width: 1024px) {
   .p-about__right__skill__box li img {
-    width: 5vw;
+    width: 80px;
   }
 }
 
@@ -550,12 +593,6 @@ img {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .p-service__title {
-    margin-bottom: 120px;
-  }
-}
-
 @media (min-width: 1024px) {
   .p-service__title {
     margin-bottom: 150px;
@@ -629,5 +666,53 @@ img {
 .p-service__wp p {
   margin-bottom: 30px;
   line-height: 1.5;
+}
+
+.p-work {
+  padding: 120px 0;
+  background-color: #F5F5F5;
+}
+
+@media (min-width: 1024px) {
+  .p-work {
+    padding: 150px 0;
+  }
+}
+
+.p-work__title {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .p-work__title {
+    margin-bottom: 150px;
+  }
+}
+
+.p-work__item-1 {
+  position: relative;
+  width: 85%;
+  margin-bottom: 100px;
+}
+
+.p-work__item-2 {
+  position: relative;
+  width: 85%;
+  margin: 0 0 0 auto;
+  margin-bottom: 100px;
+}
+
+.p-work img {
+  border-radius: 10px;
+}
+
+.p-work p {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 11;
+  color: #fff;
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */
