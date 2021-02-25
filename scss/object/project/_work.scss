@@ -15,29 +15,52 @@
         }
     }
 
-    &__item-1 {
+    &__item--1 {
         position: relative;
         width: 85%;
         margin-bottom: 100px; 
+
+        p {
+            text-align: right;
+        }
     }
 
-    &__item-2 {
+    &__item--2 {
         position: relative;
         width: 85%;
         margin: 0 0 0 auto;
         margin-bottom: 100px; 
     }
 
-    img {
-        border-radius: 10px;
+    a {
+        display: block;
+        transition: all 0.4s;
+
+        &:hover {
+            filter: brightness(40%);
+        }
     }
 
     p {
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
-        z-index: 11;
-        color: $cwhite;
+        margin-bottom: 10px;
+        color: $cblack;
         font-size: 24px;
+
+        @include tab {
+            text-align: center;
+        }
+    }
+
+    img {
+        margin-bottom: 20px;
+        
+    }
+
+    &__btn {
+        width: 100%;
+
+        @include tab {
+            text-align: center;
+        }
     }
 }
