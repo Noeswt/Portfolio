@@ -10,5 +10,7 @@
     text-align: center;
     transition: all 0.3s;
 
-    
+    @include tab {
+        width: 300px;
+    }
 }
