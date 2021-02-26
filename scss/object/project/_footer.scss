@@ -19,13 +19,21 @@
 
         small {
             color: $cwhite;
-            font-size: 14px;
+            font-size: 10px;
             line-height: 36px;
+
+            @include tab {
+                font-size: 16px;
+            }
         }
         
         a {
             color: $cwhite;
-            font-size: 36px;
+            font-size: 24px;
+
+            @include tab {
+                font-size: 36px;
+            }
         }
     }
 }
