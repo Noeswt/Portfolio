@@ -1,0 +1,83 @@
+.p-contact {
+    position: relative;
+    z-index: 1;
+    padding: 120px 0;
+    width: 100%;
+    background-image: url(../images/sunset.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include pc {
+        padding: 150px 0;
+    }
+
+    &__title {
+        margin-bottom: 120px;
+        color: $cwhite;
+        text-align: center;
+
+        @include pc {
+            margin-bottom: 150px;
+        }
+    }
+
+    p {
+        margin-bottom: 60px;
+        color: $cwhite;
+        text-align: center;
+        line-height: 1.5;
+
+        @include pc {
+            margin-bottom: 100px;
+        }   
+    }
+
+    &__form {
+        margin-bottom: 60px;
+        color: $cwhite;
+
+        @include pc {
+            margin-bottom: 100px;
+        }
+        
+        &__inner {
+            margin-bottom: 60px;
+
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            input {
+                width: 100%;
+                height: 24px;
+                border: none;
+                border-radius: 5px;
+
+                @include tab {
+                    width: 50%;
+                }
+            }
+
+            textarea {
+                width: 100%;
+                height: 200px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    &__btn {
+        width: 100%;
+
+        @include tab {
+            text-align: center;
+        }
+        
+        button {
+            color: $cwhite;
+        }
+    }
+}
