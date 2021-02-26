@@ -1,0 +1,31 @@
+.p-footer {
+
+    &--flex {
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin: 50px;
+
+            .fab {
+                color: $cwhite;
+                font-size: 36px;
+            }
+        }
+    }
+
+    &--copy {
+        padding-bottom: 50px;
+
+        small {
+            color: $cwhite;
+            font-size: 14px;
+            line-height: 36px;
+        }
+        
+        a {
+            color: $cwhite;
+            font-size: 36px;
+        }
+    }
+}
