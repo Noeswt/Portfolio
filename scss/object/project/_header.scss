@@ -16,8 +16,15 @@
                 color: $cwhite;
                 font-size: 24px;
 
+                transition: color 0.4s ease-out;
+
                 @include pc {
                     font-size: 40px;
+                }
+
+                &.color {
+                    color: $cblack;
+                    transition: color 0.4s ease-out;
                 }
             }
         }
@@ -97,6 +104,10 @@
                 }
 
                 &.menu-open {
+                    background-color: $cblack;
+                }
+
+                &.color {
                     background-color: $cblack;
                 }
             }
