@@ -31,5 +31,5 @@ $(function() {
         $('.p-header__right__burger-btn__bar').removeClass("menu-open");
   
         return false; //a要素のリンク先移動防ぐ
-      });
+    });
 });
