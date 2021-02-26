@@ -708,12 +708,20 @@ img {
 .p-header__left__a__title {
   color: #fff;
   font-size: 24px;
+  -webkit-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
 }
 
 @media (min-width: 1024px) {
   .p-header__left__a__title {
     font-size: 40px;
   }
+}
+
+.p-header__left__a__title.color {
+  color: #000;
+  -webkit-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
 }
 
 .p-header__right__nav {
@@ -804,6 +812,10 @@ img {
 }
 
 .p-header__right__burger-btn__bar.menu-open {
+  background-color: #000;
+}
+
+.p-header__right__burger-btn__bar.color {
   background-color: #000;
 }
 
