@@ -519,6 +519,7 @@ img {
 
 .p-contact p {
   margin-bottom: 60px;
+  font-family: "Noto Sans JP", sans-serif;
   color: #fff;
   text-align: center;
   line-height: 1.5;
@@ -548,6 +549,7 @@ img {
 .p-contact__form__inner label {
   display: block;
   margin-bottom: 10px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .p-contact__form__inner input {
@@ -608,13 +610,25 @@ img {
 
 .p-footer--copy small {
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 36px;
+}
+
+@media (min-width: 768px) {
+  .p-footer--copy small {
+    font-size: 16px;
+  }
 }
 
 .p-footer--copy a {
   color: #fff;
-  font-size: 36px;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .p-footer--copy a {
+    font-size: 36px;
+  }
 }
 
 .p-fv {
