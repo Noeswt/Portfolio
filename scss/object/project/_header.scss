@@ -38,11 +38,10 @@
             top: 0;
             left: 0;
             width: 100vw;
-            height: 100vh;
-            background-color: rgba($color: $cwhite, $alpha: .9);
-            transform: translateY(-100vh);
-            transition: transform 0.7s;
-
+            height: 70vh;
+            background-color: rgba($cwhite, $alpha: .9);
+            transform: translateY( calc(-100% + -110px));
+            transition: all 0.7s;
 
             &.menu-open {
                 position: absolute;
