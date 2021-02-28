@@ -225,7 +225,7 @@ img {
 
 .c-custom.menu-open {
   position: absolute;
-  top: 70vh;
+  top: 85vh;
   left: 0;
   -webkit-transform: none;
           transform: none;
@@ -765,7 +765,7 @@ img {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 70vh;
+  height: 85vh;
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-transform: translateY(calc(-100% + -110px));
           transform: translateY(calc(-100% + -110px));
@@ -783,8 +783,8 @@ img {
 .p-header__right__nav__ul {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
   width: 100%;
   text-align: center;
 }
