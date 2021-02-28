@@ -210,6 +210,40 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.c-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.c-custom.menu-open {
+  position: absolute;
+  top: 70vh;
+  left: 0;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.c-custom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.c-custom .shape-fill {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
 @media (min-width: 768px) {
   .c-flex-2column {
     display: -webkit-box;
@@ -731,14 +765,12 @@ img {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-color: rgba(255, 255, 255, 0.9);
-  -webkit-transform: translateY(-100vh);
-          transform: translateY(-100vh);
-  -webkit-transition: -webkit-transform 0.7s;
-  transition: -webkit-transform 0.7s;
-  transition: transform 0.7s;
-  transition: transform 0.7s, -webkit-transform 0.7s;
+  -webkit-transform: translateY(calc(-100% + -110px));
+          transform: translateY(calc(-100% + -110px));
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .p-header__right__nav.menu-open {
