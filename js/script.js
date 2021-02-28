@@ -34,4 +34,16 @@ $(function() {
   
         return false; //a要素のリンク先移動防ぐ
     });
+
+    $(window).scroll(function (){
+      $('.c-fadein').each(function(){
+          let targetElement = $(this).offset().top;
+          let scroll = $(window).scrollTop();
+          let windowHeight = $(window).height();
+          if (scroll > targetElement - windowHeight + 200){
+              $(this).css('opacity','1');
+              $(this).css('transform','translateY(0)');
+          }
+      });
+  });
 });

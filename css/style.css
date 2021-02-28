@@ -210,6 +210,14 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.c-fadein {
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 @media (min-width: 768px) {
   .c-flex-2column {
     display: -webkit-box;
@@ -768,12 +776,20 @@ img {
 .p-header__right__nav__ul__li a {
   color: #000;
   font-size: 36px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 @media (min-width: 1024px) {
   .p-header__right__nav__ul__li a {
-    font-size: 48px;
+    font-size: 60px;
   }
+}
+
+.p-header__right__nav__ul__li a:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .p-header__right__burger-btn {

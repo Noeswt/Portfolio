@@ -42,7 +42,7 @@
             background-color: rgba($cwhite, $alpha: .9);
             transform: translateY(-100%);
             transition: all 0.7s;
-
+            
             &.menu-open {
                 position: absolute;
                 left: 0;
@@ -70,9 +70,15 @@
                     a {
                         color: $cblack;
                         font-size: 36px;
+                        transition: all 0.2s;
 
                         @include pc {
-                            font-size: 48px;
+                            font-size: 60px;
+                        }
+
+                        &:hover {
+                            opacity: 0.6;
+                            transition: all 0.2s;
                         }
                     }
                 }
