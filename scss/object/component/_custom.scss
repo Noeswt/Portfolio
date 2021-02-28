@@ -1,29 +1,29 @@
-.c-custom {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: translateY(-100%);
-    transition: all 0.7s;
+// .c-custom {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     overflow: hidden;
+//     line-height: 0;
+//     transform: translateY(-100%);
+//     transition: all 0.7s;
 
-    &.menu-open {
-        position: absolute;
-        top: 85vh;
-        left: 0;
-        transform: none;
-        transition: all 0.7s;
-    }
-}
+//     &.menu-open {
+//         position: absolute;
+//         top: 85vh;
+//         left: 0;
+//         transform: none;
+//         transition: all 0.7s;
+//     }
+// }
 
-.c-custom svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 110px;
-}
+// .c-custom svg {
+//     position: relative;
+//     display: block;
+//     width: calc(100% + 1.3px);
+//     height: 110px;
+// }
 
-.c-custom .shape-fill {
-    fill: rgba($cwhite, 0.9);
-}
+// .c-custom .shape-fill {
+//     fill: rgba($cwhite, 0.9);
+// }

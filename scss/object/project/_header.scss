@@ -38,9 +38,9 @@
             top: 0;
             left: 0;
             width: 100vw;
-            height: 85vh;
+            height: 100vh;
             background-color: rgba($cwhite, $alpha: .9);
-            transform: translateY( calc(-100% + -110px));
+            transform: translateY(-100%);
             transition: all 0.7s;
 
             &.menu-open {
@@ -52,7 +52,7 @@
             &__ul {
                 position: absolute;
                 top: 50%;
-                transform: translateY(-40%);
+                transform: translateY(-50%);
                 width: 100%;
                 text-align: center;
 
